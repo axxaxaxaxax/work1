@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+
+    <link rel = "icon" href =
+    "file:///C:/Users/bilan/Downloads/7668b24f1e41f254cb685bb2ad7d327a-removebg-preview.png"
+    type = "image/x-icon">
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init('CCxPODBZCm0e2WGrj');
+        })();
+    </script>
+
+</head>
+<body>
+    <div class="nav">
+        <button class="close">
+            <img src="img/arrowLeft.png" alt="">
+            <p>На головну</p>
+        </button> 
+
+        <div class="money">
+            <img src="img/money.png" alt="">
+            <p id="money_count">0</p>
+        </div> 
+    </div>
+
+    <img class="imgCat" src="img/cat_contact.png" alt="">
+
+    <div class="main">
+        <div class="autorBlock">
+            <div class="autorInfo_block">
+               <p class="headText_autor">Автор</p>
+
+                <p class="autorInfoP">Ім’я: <span>Єлизавета Біланенко</span></p>
+                <p class="autorInfoP">E-Mail: <span>elizaveta.belanenko@gmail.com</span></p>
+                <p class="autorInfoP">Група ШКМ: <span>2020-2</span></p> 
+            </div>
+            
+            
+            <div class="contactForm_block">
+            <p class="contactHeadText">Зв'яжіться з нами !</p>
+
+            <form id="contact-form">
+                <input type="hidden" name="contact_number">
+                <input type="text" name="user_name" placeholder="Введіть своє ім’я">
+                <input type="email" name="user_email" placeholder="Введіть свою E-Mail">
+                <input id="message" type="text" name="message" placeholder="Ваше повідомлення/відгук">
+        
+                <input id="send" type="submit" value="Відправити">
+            </form>
+        </div>
+
+
+        </div>
+
+        
+    </div>
+    
+    
+
+    <script src="js/contact.js"></script>
+</body>
+</html>

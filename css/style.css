@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;   
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -khtml-user-select: none;
+    border: none;
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background: #92BEE7;
+    font-family: 'Montserrat', sans-serif;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.inputArea{
+    width: 1200px;
+    height: 450px;
+    border-radius: 20px;
+    background: #618EB7;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 40px;
+}
+.stat{
+    width: 88%;
+    height: 90px;
+    background: #96C7F4;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.stat p{
+    width: 25%;
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 18px;
+    color: #436F97;
+
+}
+.input{
+    width: 88%;
+    height: 85px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: -50px;
+    position: relative;
+    overflow: hidden;
+}
+.backBtn{
+    width: 20%;
+    height: 55px;
+    background: #436F97;
+    border-radius: 12px;
+    border: 0;
+    margin-top: -50px;
+
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 15px;
+    color: #fff;
+}
+.hero{
+    width: 40px;
+    height: 40px;
+    background: url(../img/ghost.png);
+    background-size: 100% 100%;
+    display: none;
+
+    position: absolute;
+    left: 45%;
+    top: 25%;
+}
+.text{
+    width: 10000000000px;
+    height: 40px;
+    border: none;
+    box-shadow: none;
+    background: white;
+    display: none;
+
+    position: relative;
+    left: 50%;
+    top: 25%;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.mainPage{
+    width: 100vw;
+    height: 100vh;
+    background: #92BEE7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+.backImg{
+    width: 700px;
+    position: absolute;
+    top: 95px;
+    left: -5px;
+}
+.mainPage button{
+    width: 350px;
+    height: 80px;
+    border-radius: 7px;
+    border: 0;
+    background: #7c6ff5;
+
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 25px;
+}
+.buttonsBlock{
+    width: 350px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 650px;
+    margin-bottom: 50px;
+}
+.h1{
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 55px;
+    width: 100%;
+    text-align: center;
+    color: #5E82A4;
+    margin-top: -20px;
+}
+.img{
+    width: 500px;
+    height: 350px;
+    background: #252059;
+}
+.mainPage button{
+    width: 500px;
+    height: 120px;
+    border-radius: 12px;
+    border: 0;
+    background: #618EB7;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 50px;
+
+    font-family: 'Dela Gothic One', sans-serif;
+    color: #92BEE7;
+    font-size: 35px;
+}
+.mainPage button:hover{
+    background: #436F97;
+    transition: 0.7s ease;
+    color: #fff;
+}
+.mainPage button p{
+    padding-left: 20px;
+}
+.mainPage a{
+    text-decoration: none;
+}
+.lessons img{
+    width: 70px;
+}
+.catImg{
+    width: 280px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 50px;
+    right: 0;
+    bottom: 0;
+}
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    top: 37%;
+
+    font-size: 20px;
+}
+.nav{
+    width: 1465px;
+    height: 80px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: -40px;
+}
+.close{
+    width: 180px;
+    height: 50px;
+    background: #436F97;
+    border-radius: 12px;
+    border: 0;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Dela Gothic One', sans-serif;
+
+    padding-bottom: 4px;
+}
+.close img{
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+}
+.money{
+    width: 140px;
+    height: 50px;
+    background: #436F97;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.money img{
+    width: 30px;
+    height: 30px;
+}
+#money_count{
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Dela Gothic One', sans-serif;
+    padding-bottom: 2px;
+}
+.catsImage{
+    width: 400px;
+    position: absolute;
+    top: 2px;
+    left: 900px;
+}
+.swal2-title{
+    font-family: 'Dela Gothic One', sans-serif;
+    color: rgba(0, 0, 0, 0.605);
+    letter-spacing: 1px;
+}
+.swal2-html-container{
+    font-family: 'Montserrat', sans-serif;
+}
+.backBtn:hover{
+    transition: 0.5s;
+    background: #315270;
+}

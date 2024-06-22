@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;   
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -khtml-user-select: none;
+    border: none;
+}
+body{
+    background: #92BEE7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav{
+    width: 1450px;
+    height: 80px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.close{
+    width: 180px;
+    height: 50px;
+    background: #436F97;
+    border-radius: 12px;
+    border: 0;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Dela Gothic One', sans-serif;
+
+    padding-bottom: 4px;
+}
+.close img{
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+}
+.money{
+    width: 140px;
+    height: 50px;
+    background: #436F97;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.money img{
+    width: 30px;
+    height: 30px;
+}
+#money_count{
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Dela Gothic One', sans-serif;
+    padding-bottom: 2px;
+}
+.autorBlock{
+    width: 1536px;
+    height: 440px;
+    background: #436F97;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 80px;
+}
+.autorInfo_block{
+    width: 570px;
+    height: 266px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    margin-left: 80px;  
+}
+.headText_autor{
+    font-size: 45px;
+    font-family: 'Dela Gothic One', sans-serif;
+    color: #96C7F4;
+    width: 100%;
+    margin-top: -40px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 70px;
+}
+.autorInfoP{
+    font-size: 28px;
+    font-family: 'Dela Gothic One', sans-serif;
+    color: #96C7F4;
+
+    display: flex;
+    align-items: center;
+}
+span{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffffc7;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+.contactForm_block{
+    width: 550px;
+    height: 550px;
+    background: #618EB7;
+    border-radius: 12px;
+    z-index: 2;
+    margin-left: 250px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.185);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contactHeadText{
+    font-size: 37px;
+    font-family: 'Dela Gothic One', sans-serif;
+    color: #ffffff;
+    margin-left: -87px;
+}
+input[type = text]{
+    width: 500px;
+    height: 70px;
+    border-radius: 12px;
+    background: #92BEE7;
+    padding-left: 20px;
+
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+input[type = email]{
+    width: 500px;
+    height: 70px;
+    border-radius: 12px;
+    background: #92BEE7;
+    padding-left: 20px;
+
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.399);
+}
+input[type = submit]{
+    width: 200px;
+    height: 65px;
+    border-radius: 12px;
+    background: #436F97;
+
+    font-size: 18px;
+    font-family: 'Dela Gothic One', sans-serif;
+    color: #96C7F4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+}
+input[type = submit]:hover{
+    transition: 0.5s;
+    transform: scale(1.08);
+    box-shadow: 0px 0px 20px #436F97;
+}
+#message{
+    margin-bottom: 40px;
+}
+
+.swal2-html-container, .swal2-title{
+    font-family: 'Montserrat', sans-serif;
+}
+.imgCat{
+    width: 230px;
+    position: absolute;
+    top: -10px;
+    left: 650px;
+}
+.swal2-title{
+    font-family: 'Dela Gothic One', sans-serif;
+    color: rgba(0, 0, 0, 0.605);
+    letter-spacing: 1px;
+}

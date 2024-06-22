@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;   
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -khtml-user-select: none;
+    border: none;
+}
+.main{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.mainH1{
+    font-size: 35px;
+    font-family: 'Dela Gothic One', sans-serif;
+    color: #fff;
+    margin-top: 30px;
+}
+.mainH1_2{
+    font-size: 35px;
+    font-family: 'Dela Gothic One', sans-serif;
+    color: #fff;
+    margin-top: 17px;
+}
+.section{
+    width: 85%;
+    height: 600px;
+    background: #618EB7;
+    border-radius: 12px;
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.lessonCard{
+    width: 230px;
+    height: 270px;
+    background: #96C7F4;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.lessonCard:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px #345676;
+}
+.lessonCard img{
+    width: 150px;
+}
+.lessonCard p:nth-child(2){
+    font-size: 27px;
+    font-family: 'Dela Gothic One', sans-serif;
+    color: #436F97;
+    margin: 0;
+}
+.lessonCard p:nth-child(3){
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+body{
+    background: #92BEE7;
+}
+.nav{
+    width: 1450px;
+    height: 80px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.close{
+    width: 180px;
+    height: 50px;
+    background: #436F97;
+    border-radius: 12px;
+    border: 0;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Dela Gothic One', sans-serif;
+
+    padding-bottom: 4px;
+}
+.close img{
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+}
+.money{
+    width: 140px;
+    height: 50px;
+    background: #436F97;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.money img{
+    width: 30px;
+    height: 30px;
+}
+#money_count{
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Dela Gothic One', sans-serif;
+    padding-bottom: 2px;
+}
+.line{
+    width: 93%;
+    height: 1.5px;
+    background: #fff;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+.cat1{
+    width: 170px;
+    position: absolute;
+    top: 42px;
+    left: 1140px;
+}
+.cat2{
+    width: 150px;
+    position: absolute;
+    top: 925px;
+    left: 180px;
+}
